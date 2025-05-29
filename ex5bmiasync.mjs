@@ -12,7 +12,7 @@ const getBMIcategory = (bmi) => {
     return '3단계 비만';
 };
 
-// 표준 입출력 창치 선언
+// 표준 입출력 장치 선언
 const rdata = readline.createInterface({
     input: process.stdin,
     output: process.stdout
