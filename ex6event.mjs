@@ -58,6 +58,7 @@ myEvent2.on('event', () => {
 myEvent2.emit('event');
 
 const myEvent3 = new myEmmiter();
+// const myEvent3 = new EventEmitter();
 myEvent3.on("eventok", (a, b) => {
     console.log(a, ':', b);
 });
